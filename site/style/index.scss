@@ -3,5 +3,31 @@
 $main: #a8bbff;
 $secondary: #00ff65;
 $secondary_dark: #00b849;
-$font: 'Ubuntu', sans-serif;
+$font: "Ubuntu", sans-serif;
 
+* {
+  padding: none;
+  margin: none;
+  border: none;
+
+  background-color: $main;
+
+  font: $font;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5vh;
+}
+
+.card {
+  width: 160vh;
+  height: 90vh;
+
+  border-radius: 50px;
+  background: #a8bbff;
+  box-shadow: 7px 7px 14px #8f9fd9, -7px -7px 14px #c1d7ff;
+}

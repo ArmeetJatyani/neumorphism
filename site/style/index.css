@@ -1,1 +1,34 @@
-/* No CSS *//*# sourceMappingURL=index.css.map */
+* {
+  padding: none;
+  margin: none;
+  border: none;
+  background-color: #a8bbff;
+  font: "Ubuntu", sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5vh;
+}
+
+.card {
+  width: 160vh;
+  height: 90vh;
+  border-radius: 50px;
+  background: #a8bbff;
+  -webkit-box-shadow: 7px 7px 14px #8f9fd9, -7px -7px 14px #c1d7ff;
+          box-shadow: 7px 7px 14px #8f9fd9, -7px -7px 14px #c1d7ff;
+}
+/*# sourceMappingURL=index.css.map */
