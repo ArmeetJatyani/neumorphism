@@ -3,10 +3,73 @@
   margin: none;
   border: none;
   background-color: #a8bbff;
-  font: "Ubuntu", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+h2,
+h6 {
+  padding: none;
+  margin: none;
+  color: #313852;
+  text-align: center;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: 400;
+}
+
+h6 {
+  font-size: 20px;
+  font-weight: 100;
 }
 
 .container {
+  margin-top: 5vh;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 160vh;
+  height: 90vh;
+  border-radius: 30px;
+  background: #a8bbff;
+  -webkit-box-shadow: 7px 7px 14px #8f9fd9 #c1d7ff;
+          box-shadow: 7px 7px 14px #8f9fd9 #c1d7ff;
+}
+
+.left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.left .clock {
+  width: 30vh;
+  height: 30vh;
+  border-radius: 50%;
+  background: #a8bbff;
+  -webkit-box-shadow: inset 7px 7px 14px #8f9fd9, inset -7px -7px 14px #c1d7ff;
+          box-shadow: inset 7px 7px 14px #8f9fd9, inset -7px -7px 14px #c1d7ff;
+}
+
+.left .time {
+  height: 150px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -20,15 +83,13 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 5vh;
-}
-
-.card {
-  width: 160vh;
-  height: 90vh;
   border-radius: 50px;
   background: #a8bbff;
   -webkit-box-shadow: 7px 7px 14px #8f9fd9, -7px -7px 14px #c1d7ff;
           box-shadow: 7px 7px 14px #8f9fd9, -7px -7px 14px #c1d7ff;
+}
+
+.left .time h2, .left .time h6 {
+  margin: 0px;
 }
 /*# sourceMappingURL=index.css.map */
