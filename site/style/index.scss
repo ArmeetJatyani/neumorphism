@@ -42,9 +42,6 @@ h6 {
 .card {
     display: flex;
     flex-direction: row;
-    // align-items: center;
-    // justify-content: center;
-    justify-content: space-between;
     width: 160vh;
     height: 90vh;
 
@@ -57,7 +54,8 @@ h6 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-
+    align-items: center;
+    
     .clock {
         width: 30vh;
         height: 30vh;
@@ -68,7 +66,8 @@ h6 {
     }
 
     .time {
-        height: 150px;
+        width: 30vh;
+        height: 15vh;
 
         display: flex;
         flex-direction: column;
@@ -79,8 +78,18 @@ h6 {
         background: $main;
         box-shadow: 7px 7px 14px $dismal, -7px -7px 14px $lightest;
 
-        h2, h6 {
+        h2,
+        h6 {
             margin: 0px;
         }
+    }
+
+    .controls {
+        height: 50px;
+        width: 100px;
+
+        border-radius: 50px;
+        background: $main;
+        box-shadow: 7px 7px 14px $dismal, -7px -7px 14px $lightest;
     }
 }
